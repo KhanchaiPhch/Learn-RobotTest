@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-02T15:17:38.344448" rpa="false" schemaversion="5">
+<suite id="s1" name="testSPU" source="C:\Users\5-1001\CSI402\CSI403L\CSI403-W9\testSPU.robot">
+<test id="s1-t1" name="TC GO TO SPU WEB" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-02T15:17:38.578451" level="INFO">Opening browser 'Edge' to base url 'https://studentscms.spu.ac.th/estudent/estudentlogin1.cfm'.</msg>
+<arg>https://studentscms.spu.ac.th/estudent/estudentlogin1.cfm</arg>
+<arg>Edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-02T15:17:38.578256" elapsed="9.557531"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-02T15:17:48.136472" level="FAIL">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</msg>
+<arg>username 65070100</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2025-03-02T15:17:48.136246" elapsed="0.000289">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</status>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<arg>password 1309902806410</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-03-02T15:17:48.136890" elapsed="0.000039"/>
+</kw>
+<status status="FAIL" start="2025-03-02T15:17:38.577533" elapsed="9.559757">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</status>
+</test>
+<doc>Go To SPU website by Web Browser.</doc>
+<status status="FAIL" start="2025-03-02T15:17:38.345498" elapsed="9.793516"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="testSPU" id="s1" pass="0" fail="1" skip="0">testSPU</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
