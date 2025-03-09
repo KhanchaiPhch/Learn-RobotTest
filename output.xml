@@ -1,29 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-02T15:17:38.344448" rpa="false" schemaversion="5">
-<suite id="s1" name="testSPU" source="C:\Users\5-1001\CSI402\CSI403L\CSI403-W9\testSPU.robot">
-<test id="s1-t1" name="TC GO TO SPU WEB" line="7">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-09T17:43:43.509143" rpa="false" schemaversion="5">
+<suite id="s1" name="testGmail" source="C:\Users\5-1001\CSI402\CSI403L\CSI403-W9\testGmail.robot">
+<test id="s1-t1" name="TC-S0101 Registration Gmail For Personal" line="6">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-03-02T15:17:38.578451" level="INFO">Opening browser 'Edge' to base url 'https://studentscms.spu.ac.th/estudent/estudentlogin1.cfm'.</msg>
-<arg>https://studentscms.spu.ac.th/estudent/estudentlogin1.cfm</arg>
+<msg time="2025-03-09T17:43:43.814456" level="INFO">Opening browser 'Edge' to base url 'https://workspace.google.com/intl/en-US/gmail/'.</msg>
+<arg>https://workspace.google.com/intl/en-US/gmail/</arg>
 <arg>Edge</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-03-02T15:17:38.578256" elapsed="9.557531"/>
+<status status="PASS" start="2025-03-09T17:43:43.814252" elapsed="6.721870"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:50.654973" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-09T17:43:50.536711" elapsed="0.118493"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:50.656527" level="INFO">Clicking element 'xpath://*[@id="root"]/div[1]/header/div/div[5]/gws-dropdown-button/div'.</msg>
+<arg>xpath://*[@id="root"]/div[1]/header/div/div[5]/gws-dropdown-button/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:43:50.655833" elapsed="0.128763"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:50.935364" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-09T17:43:50.785173" elapsed="0.150311"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:50.936082" level="INFO">Clicking element 'xpath://*[@id="root"]/div[1]/header/div/div[5]/gws-dropdown-button/a[1]'.</msg>
+<arg>xpath://*[@id="root"]/div[1]/header/div/div[5]/gws-dropdown-button/a[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:43:50.935850" elapsed="1.252186"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:52.473548" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-09T17:43:52.188613" elapsed="0.285068"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-02T15:17:48.136472" level="FAIL">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</msg>
-<arg>username 65070100</arg>
+<msg time="2025-03-09T17:43:52.474307" level="INFO">Typing text 'khan' into text field 'xpath://*[@id="firstName"]'.</msg>
+<arg>xpath://*[@id="firstName"]</arg>
+<arg>khan</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="FAIL" start="2025-03-02T15:17:48.136246" elapsed="0.000289">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</status>
+<status status="PASS" start="2025-03-09T17:43:52.474033" elapsed="0.155908"/>
 </kw>
-<kw name="Input Password" owner="SeleniumLibrary">
-<arg>password 1309902806410</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-03-02T15:17:48.136890" elapsed="0.000039"/>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:52.726578" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-09T17:43:52.630355" elapsed="0.096368"/>
 </kw>
-<status status="FAIL" start="2025-03-02T15:17:38.577533" elapsed="9.559757">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</status>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:52.727342" level="INFO">Typing text 'Pheat' into text field 'xpath://*[@id="lastName"]'.</msg>
+<arg>xpath://*[@id="lastName"]</arg>
+<arg>Pheat</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:43:52.727098" elapsed="0.096220"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:52.922227" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-13.png"&gt;&lt;img src="selenium-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-09T17:43:52.823847" elapsed="0.098647"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:43:52.923487" level="INFO">Clicking element 'xpath://*[@id="collectNameNext"]/div/button'.</msg>
+<arg>xpath://*[@id="collectNameNext"]/div/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:43:52.923082" elapsed="0.089615"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-09T17:44:01.013828" level="INFO">Slept 8 seconds.</msg>
+<arg>8s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-09T17:43:53.013173" elapsed="8.001006"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:01.086026" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-09T17:44:01.014644" elapsed="0.071526"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:01.086726" level="INFO">Clicking element 'month'.</msg>
+<arg>month</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:01.086576" elapsed="0.066209"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:01.153387" level="INFO">Selecting options from selection list 'month' by value 9.</msg>
+<arg>month</arg>
+<arg>9</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2025-03-09T17:44:01.153145" elapsed="0.071121"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-09T17:44:03.225012" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-09T17:44:01.224637" elapsed="2.000492"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:03.225755" level="INFO">Clicking element 'day'.</msg>
+<arg>day</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:03.225532" elapsed="0.074380"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:03.300947" level="INFO">Typing text '21' into text field 'day'.</msg>
+<arg>day</arg>
+<arg>21</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:03.300747" elapsed="0.057284"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-09T17:44:05.358908" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-09T17:44:03.358297" elapsed="2.000728"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:05.359659" level="INFO">Clicking element 'year'.</msg>
+<arg>year</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:05.359450" elapsed="0.091896"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:05.452097" level="INFO">Typing text '2005' into text field 'year'.</msg>
+<arg>year</arg>
+<arg>2005</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:05.451777" elapsed="0.071245"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-09T17:44:07.524539" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-09T17:44:05.523649" elapsed="2.001006"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:07.525232" level="INFO">Clicking element 'gender'.</msg>
+<arg>gender</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:07.525078" elapsed="0.076639"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:07.602156" level="INFO">Selecting options from selection list 'gender' by value 2.</msg>
+<arg>gender</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2025-03-09T17:44:07.601973" elapsed="0.056623"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-09T17:44:09.660326" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-09T17:44:07.659767" elapsed="2.000666"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:09.743485" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2025-03-09T17:44:09.660980" elapsed="0.082593"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:09.744168" level="INFO">Clicking element 'xpath://*[@id="birthdaygenderNext"]/div/button'.</msg>
+<arg>xpath://*[@id="birthdaygenderNext"]/div/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:09.743982" elapsed="0.099619"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-09T17:44:11.845225" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-09T17:44:09.844321" elapsed="2.001098"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:11.846002" level="INFO">Clicking element 'xpath://*[@id="selectionc3"]'.</msg>
+<arg>xpath://*[@id="selectionc3"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:11.845801" elapsed="0.066416"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-03-09T17:44:13.913738" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-03-09T17:44:11.913016" elapsed="2.000865"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-03-09T17:44:13.914557" level="INFO">Typing text 'asdasdasd' into text field '//*[@id="yDmH0d"]/c-wiz/div/div[2]/div/div/div/form/span/section/div/div/div[2]/div[1]/div/div[1]/div/div[1]/input'.</msg>
+<arg>//*[@id="yDmH0d"]/c-wiz/div/div[2]/div/div/div/form/span/section/div/div/div[2]/div[1]/div/div[1]/div/div[1]/input</arg>
+<arg>asdasdasd</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-03-09T17:44:13.914301" elapsed="0.112181"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn" type="TEARDOWN">
+<arg>300</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="FAIL" start="2025-03-09T17:44:14.026924" elapsed="97.423285">Execution terminated by signal</status>
+</kw>
+<status status="FAIL" start="2025-03-09T17:43:43.813541" elapsed="127.636993">Teardown failed:
+Execution terminated by signal</status>
 </test>
-<doc>Go To SPU website by Web Browser.</doc>
-<status status="FAIL" start="2025-03-02T15:17:38.345498" elapsed="9.793516"/>
+<doc>Test Registration And Use Gmail</doc>
+<status status="FAIL" start="2025-03-09T17:43:43.510662" elapsed="127.940903"/>
 </suite>
 <statistics>
 <total>
@@ -32,7 +207,7 @@
 <tag>
 </tag>
 <suite>
-<stat name="testSPU" id="s1" pass="0" fail="1" skip="0">testSPU</stat>
+<stat name="testGmail" id="s1" pass="0" fail="1" skip="0">testGmail</stat>
 </suite>
 </statistics>
 <errors>
