@@ -36,4 +36,4 @@ TC-S0101 Registration Gmail For Personal
     Click Element    xpath://*[@id="selectionc3"]
     Sleep    2s
     Input Text    //*[@id="yDmH0d"]/c-wiz/div/div[2]/div/div/div/form/span/section/div/div/div[2]/div[1]/div/div[1]/div/div[1]/input    asdasdasd
-    [Teardown]    sleep     300
+    [Teardown]    sleep     30s
